@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Does it Fly?</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <!-- Start Game Box -->
+    <div class="main-container">
+        <div id="hide-on-start-click">
+           <h2>DOES IT FLY?</h2>
+           <img id="main-page-image" src="https://i.pinimg.com/originals/02/ce/79/02ce7945c01a4d62f78e480ca9c51f00.gif">
+           <h4><a href="/rules.html">See Rules</a></h4>
+        </div>
+    <button class="btn" id="start-game">Start Game</button>
+    
+    <!-- Questions Box -->
+         <div class="question-container hide" id="question-container">
+           <header>
+              <h2 class="title">Does it Fly?</h2>
+                 <div class="timer">
+                     <div class="timer_text">Time Left</div>
+                     <div class ="timer_sec" id="timer-count">10</div>
+                 </div> 
+           </header>
+           <div class="question-section">
+              <h4 id="question">Question</h4>
+              <img id="question-image"  src="#">
+              <br>
+            </div>
+            <div class="yesnobuttons">
+              <button id="true-button" class="btn btn-adjacent">yes</button>
+              <button id="false-button" class="btn btn-adjacent">no</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+</body>
+</html>
