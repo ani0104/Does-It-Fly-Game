@@ -1,7 +1,7 @@
 # Does-It-Fly-Game
 A childhood game played in India where players need to quickly think on their feet and decide whether the animal/bird displayed to them can fly or not.
 
-[Launch Game](https://ani0104.github.io/Does-It-Fly-Game/index.html)
+[Launch Game](https://anisam04.github.io/Does-It-Fly-Game/index.html)
 
 # Technologies Used:  
 JavaScript, HTML, CSS
